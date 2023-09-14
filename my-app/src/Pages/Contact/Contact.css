@@ -1,23 +1,26 @@
-.contact-me{
+.cantact-me{
     width: 100%;
-  
-    background: #191919;
+    background:#101010 ;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content:center;
+   
+ 
   
  
 }
-.contact-me p{
+.cantact-me p{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-top: 50px;
+    
+    
 
 
 }
-.cantact-me  .button-two{
+.cantact-me .button-two{
     background-color:#f9004d;
     color:white;
     text-decoration: none;
@@ -27,10 +30,36 @@
     margin-left: 45%;
     border-radius:30px;
     transition: .4s;
+    margin-top: 50px;
+   
+    margin-left: 20px;
    
 }
-.cantact-me .button-two:hover{
+.cantact-me  .button-two:hover{
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;
+}
+.social{
+    display: flex;
+}
+.social .i{
+  width:45px;
+  height:45px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9004d;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}.social .i:hover{
+    transform: scale(1.5);
+    transition: .3s;
+}
+.cantact-me  .end{
+    color:#f9004d;
+    font-size:14px ;
 }
